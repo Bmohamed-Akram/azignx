@@ -1,0 +1,535 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Asignx</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/main-styles.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/animated.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href=" " class="logo">
+              <img src="{% static 'assets/images/logo2.png' %}" style="max-height: 80px;">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#about">About</a></li>
+              <li class="scroll-to-section"><a href="#chooseus">Why choose us</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li> 
+              <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Contact Us Now</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="owl-carousel owl-banner">
+                <div class="item header-text">
+                  <h6>Welcome to AsignX</h6>
+                  <h2>Where <em>digital excellence</em> meets <span>business growth</span></h2>
+                  <p>Be the master of online marketing and grow your Business.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#video">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to AsignX</h6>
+                  <h2>Where <em>digital excellence</em> meets <span>business growth</span></h2>
+                  <p>Be the master of online marketing and grow your Business.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#video">Contact Us</a>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to AsignX</h6>
+                  <h2>Where <em>digital excellence</em> meets <span>business growth</span></h2>
+                  <p>Be the master of online marketing and grow your Business.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#video">Contact Us</a>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section">
+    <div class="services-right-dec">
+      <img src="{% static 'assets/images/services-right-dec.png' %}" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="{% static 'assets/images/services-left-dec.png' %}" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>We <em>Provide</em> The Best Service With <span>Our Tools</span></h2>
+            <span>Our Services</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-services">
+            <div class="item">
+              <h4>Marketing Solutions</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-01.png' %}" alt=""></div>
+              <p>Empower your brand with our comprehensive marketing solutions. From strategic planning
+                to execution, we tailor campaigns that resonate with your audience and drive tangible results.</p>
+            </div>
+            <div class="item">
+              <h4>Business Setup Assistance</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-02.png' %}" alt=""></div>
+              <p>Embark on your entrepreneurial journey with confidence. We provide expert guidance to set up your business, 
+                ensuring a solid foundation for success. Let us navigate the complexities while you focus on realizing your vision.</p>
+            </div>
+            <div class="item">
+              <h4>Web Development and SEO</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-03.png' %}" alt=""></div>
+              <p>Transform your online presence with our seamless web development services. Our websites not only look visually 
+                stunning but are also optimized for search engines, ensuring your business gets noticed in the crowded digital landscape.</p>
+            </div>
+            <div class="item">
+              <h4>Social Media Marketing</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-04.png' %}" alt=""></div>
+              <p>Ignite your brand on social platforms! Our social media marketing strategies are designed to engage, connect, and convert.
+                 Let us tell your brand story in a way that captivates your audience and builds a loyal community.</p>
+            </div>
+            <div class="item">
+              <h4>Logo and Flyer Designing</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-04.png' %}" alt=""></div>
+              <p>Make a lasting impression with captivating visuals. Our creative team crafts unique logos and eye-catching flyers that embody your brand identity.
+                 Stand out from the competition with designs that leave a memorable mark.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="left-image">
+            <img src="{% static 'assets/images/about-left-image.png' %}" alt="Two Girls working together">
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="row">
+            
+              <div class="section-heading">
+                <h2>who <span>we</span> are</h2>
+                <p style="text-align: justify;">At AzignX, we are more than just a service provider – 
+                  we are your dedicated partners in achieving business success. 
+                  Our journey is intertwined with a passion for innovation, a commitment to excellence, 
+                  and a relentless pursuit of your goals.</p>
+                &nbsp; 
+                <div class="section-heading">
+                  <h2>Our <span>Commitment</span></h2>
+                  <p style="text-align: justify;">
+                    We are committed to providing not just services, but solutions. 
+                    Every project we undertake is a testament to our commitment to delivering excellence. 
+                    Whether it's crafting a compelling marketing strategy, assisting in business setup, or 
+                    designing a stunning logo, we approach each task with dedication and precision.
+                  </p>
+                  &nbsp; 
+                <div class="section-heading">
+                  <h2>Our <span>Philosophy</span></h2>
+                  <p style="text-align: justify;">
+                    We believe in the power of collaboration. As a client-focused team, 
+                    we are driven by the philosophy that your success is our success. 
+                    By combining our expertise with your vision, we aim to create a synergy that goes 
+                    beyond the ordinary.
+                  </p> 
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="chooseus" class="our-services section">
+    <div class="services-right-dec">
+      <img src="{% static 'assets/images/services-right-dec.png' %}" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="{% static 'assets/images/services-left-dec.png' %}" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Why <em>choose</em> us </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-services">
+            <div class="item">
+              <h4>Expertise That Matters</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-01.png' %}" alt=""></div>
+              <p>
+                At AzignX, we bring a wealth of experience to the table. 
+                Our team comprises seasoned professionals with diverse skills, ensuring that every aspect of your project is handled with expertise and finesse. 
+                From marketing strategies to web development, we've got you covered.
+              </p>
+            </div>
+            <div class="item">
+              <h4>Innovative Solutions</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-02.png' %}" alt=""></div>
+              <p>In a world where the only constant is change, we thrive on innovation. 
+                Our solutions are not just about addressing current needs; they're crafted to adapt and excel 
+                in the evolving landscape. 
+                Stay ahead of the curve with strategies that are as forward-thinking as they are effective.</p>
+            </div>
+            <div class="item">
+              <h4>Client-Centric Approach</h4>
+              <div class="icon"><img src="{% static 'assets/images/service-icon-03.png' %}" alt=""></div>
+              <p>
+                Your satisfaction is our priority. We don't just deliver services; we build relationships. 
+                Our client-centric approach means that we take the time to understand your unique goals, 
+                challenges, and aspirations. Your success is our success, and we're committed to helping 
+                you achieve it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="portfolio-left-dec">
+      <img src="{% static 'assets/images/portfolio-left-dec.png' %}" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Our Recent <em>Projects</em> &amp; Case Studies <span>for Clients</span></h2>
+            <span>Our Portfolio</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-portfolio">
+            {% if clients %}
+            {% for client in clients %}
+            <div class="item">
+              <div class="thumb">
+                <img src="{{ client.image.url }}" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a rel="sponsored" href="{{client.link}}" target="_parent"><h4>{{client.project_count}}</h4></a>
+                    <span>{{client.title}}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <p style="text-align: center;">No Projects yet.</p>
+            {% endif %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div id="pricing" class="pricing-tables">
+    <div class="tables-left-dec">
+      <img src="{% static 'assets/images/tables-left-dec.png' %}" alt="">
+    </div>
+    <div class="tables-right-dec">
+      <img src="{% static 'assets/images/tables-right-dec.png' %}" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Select a suitable <em>plan</em> for your next <span>projects</span></h2>
+            <span>Our Plans</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="item first-item">
+            <h4>Starter Plan</h4>
+            <em>$160/mo</em>
+            <span>$140</span>
+            <ul>
+              <li>10 Projects</li>
+              <li>100 GB space</li>
+              <li>20 SEO checkups</li>
+              <li>Basic Support</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="#">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item second-item">
+            <h4>Standard Plan</h4>
+            <em>$240/mo</em>
+            <span>$200</span>
+            <ul>
+              <li>20 Projects</li>
+              <li>200 GB space</li>
+              <li>50 SEO checkups</li>
+              <li>Pro Support</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="#">Get it Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="item third-item">
+            <h4>Advanced Plan</h4>
+            <em>$360/mo</em>
+            <span>$280</span>
+            <ul>
+              <li>30 Projects</li>
+              <li>300 GB space</li>
+              <li>100 SEO checkups</li>
+              <li>Best Support</li>
+            </ul>
+            <div class="main-blue-button-hover">
+              <a href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  -->
+
+
+  <div id="contact" class="contact-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="section-heading">
+            <h2>Feel free to <em>Contact</em> us via the <span>HTML form</span></h2>
+            
+            <div class="info">
+              <span><i class="fa fa-phone"></i> <a href="#">0775642478<br>0775645479</a></span>
+              <span><i class="fa fa-envelope"></i> <a href="#">info@Asignx.com<br>mail@company.com</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <form id="contact" action="" method="post">
+            {% csrf_token %}
+            <div class="row">
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="number" minlength="10" maxlength="12" name="phonenumber" id="phonenumber" placeholder="Phone Number" autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="text" name="message" id="message" placeholder="Message" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="main-button">Submit Request</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="contact-dec">
+      <img src="{% static 'assets/images/contact-dec.png' %}" alt="">
+    </div>
+    <div class="contact-left-dec">
+      <img src="{% static 'assets/images/contact-left-dec.png' %}" alt="">
+    </div>
+  </div>
+
+  <div class="footer-dec">
+    
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="about footer-item">
+            <div class="logo">
+              <a href=" "><img src="{% static 'assets/images/logo2.png' %}" alt="Onix Digital TemplateMo" style="max-height: 80px;"></a>
+            </div>
+            <a href="#">info@company.com</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services footer-item">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">SEO Development</a></li>
+              <li><a href="#">Business Growth</a></li>
+              <li><a href="#">Social Media Managment</a></li>
+              <li><a href="#">Website Optimization</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Business Ideas</a></li>
+              <li><a href="#">Website Checkup</a></li>
+              <li><a href="#">Page Speed Test</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="subscribe-newsletters footer-item">
+            <h4>Subscribe Newsletters</h4>
+            <p>Get our latest news and ideas to your inbox</p>
+            <form action="/subscribe" method="post">
+              {% csrf_token %}
+              <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
+              <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p>Copyright © 2021 AzignX agency, Ltd. All Rights Reserved.</p>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+  <script src="{% static 'assets/js/animation.js' %}"></script>
+  <script src="{% static 'assets/js/imagesloaded.js' %}"></script>
+  <script src="{% static 'assets/js/custom.js' %}"></script>
+
+  <script>
+  // Acc
+  $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+    
+  </script>
+</body>
+</html>
